@@ -14,10 +14,7 @@ The `clv_calculation.R` script calculates the CLV based on historical transactio
 1. Calculating the historical value based on the purchases made by each customer.
 2. Predicting the future value of each customer by multiplying the average spent money per transaction by the predicted transactions and applying a daily discount rate.
 3. Calculating the acquisition costs as the marketing costs during the observation period divided by the total number of clients.
-4. Combining these components to compute the CLV: 
-   \[
-   \text{CLV} = (\text{Historical Value} + \text{Future Value}) - \text{Acquisition Costs}
-   \]
+4. Combining these components to compute the CLV: CLV= (Historical Value+ Future Value) - Acquisition Costs
 
 ## How to Use
 
